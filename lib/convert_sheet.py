@@ -1,6 +1,6 @@
 import os
-import json
 import re
+from lib.jsonny import FileToJson
 
 def confirmEvent(name):
     if name == "gaawe":
@@ -48,17 +48,7 @@ def getAdditionalInfo(tag):
 
 
 # Gets a file and returns it as a json
-def FileToJson(filepath):
-    print("getting file...")
-    with open(filepath, 'r', encoding='utf-8-sig') as file:
-        content = file.read()
-        print("contents read!")
-    # Now try parsing
-    try:
-        print("getting json...")
-        return json.loads(content)
-    except json.JSONDecodeError as e:
-        print(f"Error parsing JSON: {e}")
+
 
 # Outputs a file from imports to exports to use in a table.
 def OutputToFile (fileName):
