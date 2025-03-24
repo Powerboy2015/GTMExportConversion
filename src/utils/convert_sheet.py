@@ -1,6 +1,6 @@
 import os
 import re
-from lib.jsonny import FileToJson
+from jsonny import FileToJson
 
 def confirmEvent(name):
     if name == "gaawe":

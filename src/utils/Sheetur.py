@@ -1,4 +1,4 @@
-from lib.jsonny import FileToJson
+from utils.jsonny import FileToJson
 import os
 from collections import defaultdict
 # Sheetur is used to compare GTM containers.
@@ -33,7 +33,6 @@ def Compare_sheets(folder_path:str):
 
 def compare_tag_to_files(tags:list[str],files: dict, output_dict:dict):
     
-
     for tag in tags:
         tag_name = tag['name']
         output_dict.setdefault(tag_name,{})
