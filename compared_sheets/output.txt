@@ -1,0 +1,71 @@
+GA4 - Event - ecommerce - add_payment_info	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - click_social_media	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - click_contact	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GAds - Conversion - purchase	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - ecommerce - add_to_cart	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - signout_account	PL	 - 	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - view_cart	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - javascript_error	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - ecommerce - view_item_list - Roll-up	PL	AT	BE	CH	COM	DE	DK	ES	FR	 - 	IT	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - begin_checkout - Roll-up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - view_item - Roll-Up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - signin_account - Roll-up	PL	 - 	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - purchase	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - remove_from_cart - Roll-up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - view_cart - Roll-up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - view_404 - Roll-up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	IE	 - 	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - remove_from_cart	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - view_item	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - signout_account - Roll-up	PL	 - 	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - add_to_cart - Roll-Up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - click_banner - Roll-up	PL	 - 	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - signin_account	PL	 - 	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - javascript_error - Roll-up	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - submit_account - Roll-up	PL	 - 	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - add_shipping_info - Roll-up	PL	 - 	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - add_shipping_info	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GAds - Remarketing	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - click_social_media - Roll-up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - submit_account	PL	 - 	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GAds - Conversion Linker	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - ecommerce - purchase - Roll-up	PL	AT	 - 	CH	 - 	DE	DK	ES	 - 	 - 	 - 	 - 	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - view_item_list	PL	AT	BE	CH	COM	DE	DK	ES	FR	 - 	IT	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - click_contact - Roll-up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Config	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - view_404	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - ecommerce - begin_checkout	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Config - Roll-Up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	IE	 - 	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - add_payment_info - Roll-up	PL	AT	 - 	CH	COM	DE	DK	ES	FR	 - 	 - 	NL	PT	SE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - click_banner	PL	 - 	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+Consent Mode - DEFAULT	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+cHTML - Consent Selected	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+Consent Mode - UPDATE	PL	AT	BE	CH	COM	DE	DK	ES	FR	IE	IT	NL	PT	SE	UK
+GA4 - Event - ecommerce - Roll-Up	AT	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+AWIN - Journey	BE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	NL	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+AWIN - Conversion	BE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	NL	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce	BE	 - 	 - 	 - 	 - 	 - 	 - 	IE	IT	 - 	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - Roll-up	BE	 - 	 - 	 - 	 - 	 - 	 - 	IE	IT	 - 	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Config - Roll-up	BE	 - 	 - 	 - 	 - 	 - 	 - 	 - 	IT	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+HTML - Meta - fbq_consent_grant	BE	 - 	 - 	DE	 - 	 - 	 - 	 - 	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - Config	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - Pageview	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	 - 	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - Purchase	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - AddToCart	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - ViewContent	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - Checkout 1. Cart	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - Checkout 2. Shipping	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - Checkout 3. Payment	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - MarketingConsent	BE	 - 	 - 	 - 	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - CreateAccount	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - AccountNewsletterUpdate	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+SQ - Email Interaction - Not Subscribed Listener	BE	 - 	 - 	DE	 - 	 - 	FR	IE	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+GA4 - Event - ecommerce - purchase - Roll-Up	COM	 - 	 - 	 - 	FR	 - 	 - 	NL	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+FB - Purchase	DE	 - 	 - 	 - 	 - 	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+FB - ViewContent	DE	 - 	 - 	 - 	 - 	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+FB - PageView	DE	 - 	 - 	 - 	 - 	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+FB - AddToCart	DE	 - 	 - 	 - 	 - 	 - 	NL	 - 	 - 	UK	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 	 - 
+cHTML - Structured Data	NL	 - 	 - 	 - 
+SQ - PageView	NL	 - 	 - 	 - 
+MAds - UET Tag	NL	 - 	 - 	 - 
+cHTML - UET - consent - default	NL	 - 	 - 	 - 
+cHTML - UET - consent - update	NL	 - 	 - 	 - 
