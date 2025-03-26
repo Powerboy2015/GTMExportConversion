@@ -58,5 +58,6 @@ def output_to_file(output_file:str,comparison_dict: dict[str,dict[str,str]]):
             for key,values in comparison_dict.items():
                 # sets the empty text string that we fill
                 text = "\t".join(values.values())
-                #  loops through the list of copies and adds the addition 
-                file.write(f"{key.strip('\n')}\t{text}\n")
+                #  loops through the list of copies and adds the addition
+                stripped_key = key.strip("\n")
+                file.write(f'{stripped_key}\t{text}\n')

@@ -4,11 +4,11 @@ import utils.Sheetur as Sheetur
 import tkinter as tk
 from tkinter import ttk
 import utils.tkPrefabs as tPre
+import utils.GuiFunctions as GFunc
 
 # files = [f for f in os.listdir("./JSON_imports") if os.path.isfile(os.path.join("./JSON_imports", f))]
 # for file in files:
 #     to_sheet_text(file)
-
 
 # Sheetur.Compare_sheets('./JSON_imports')
 
@@ -19,10 +19,6 @@ color_table = {
     "off_white" :   "#fff9f7",
     "red":          "#ff8484"
 }
-
-# Set default background for all ttk widgets using Style
-
-
 
 root = tk.Tk()
 root.title("SheeturGTM")
@@ -58,13 +54,50 @@ files_div.grid(column=0,row=0,padx=(0,78))
 files_div.grid_propagate(False)
 
 # files head div
-files_head_div = tk.Frame(files_div,width=162,height=51,background=color_table["red"])
-files_head_div.grid(column=0,row=0,padx=10,pady=10)
-files_head_div.grid_propagate(False)
+files_head_div = tk.Frame(files_div,width=162,height=51,background=color_table["light_green"])
+files_head_div.grid(column=0,row=0,padx=10,pady=(10,0))
 
-choose_files_text = tk.Label(files_head_div,text="Choose files", width=90,height=10,background=color_table["light_green"])
-choose_files_text.grid(column=0,row=0)
+# columns config
+files_head_div.grid_columnconfigure(0, weight=1)
+files_head_div.grid_columnconfigure(1, weight=1)
+files_head_div.grid_rowconfigure(1, weight=1)
+files_head_div.grid_propagate(False)
+#
+
+choose_files_text = tk.Label(files_head_div,text="Choose files",background=color_table["light_green"])
+choose_files_text.grid(column=0,row=0,sticky=tk.W)
+
+choose_files_button = tk.Button(files_head_div,
+                                text="Choose",
+                                background=color_table["blue"],
+                                foreground=color_table["light_green"],
+                                activebackground=color_table["blue"],
+                                activeforeground=color_table["light_green"],
+                                command=lambda: GFunc.get_files(file_list_display))
+choose_files_button.grid(column=1,row=0,sticky=tk.E)
+
+filename_list_text = tk.Label(files_head_div,text="Filenames",background=color_table["light_green"])
+filename_list_text.grid(column=0,row=1,columnspan=2,sticky="nsew")
 # files head div
+
+# --- files body div  ---
+files_body_div = tk.Frame(files_div,width=181,height=367,background=color_table["green"])
+files_body_div.grid(column=0,row=1)
+files_body_div.grid_propagate(False)
+files_body_div.grid_rowconfigure(0, weight=1)
+files_body_div.grid_columnconfigure(0, weight=1)
+
+file_list_display = tk.Canvas(files_body_div,background=color_table["green"],borderwidth=0,selectborderwidth=0)
+file_list_display.grid(column=0,row=0,sticky="nsew")
+
+scrollable_frame = tk.Frame(file_list_display)
+file_list_display.create_window((0,0),window=scrollable_frame,anchor="nw")
+
+file_list_scroller = tk.Scrollbar(files_body_div,orient=tk.HORIZONTAL,command=file_list_display.xview)
+file_list_scroller.grid(column=0,row=1,sticky="nsew")
+file_list_display.configure(xscrollcommand=file_list_scroller.set)
+
+# --- files body div ---
 
 # files div
 
