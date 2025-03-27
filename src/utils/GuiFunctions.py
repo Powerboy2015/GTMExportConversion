@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import filedialog
+from src.gui import GLOBAL_CHOSEN_FILES
 
 
 
-
-def get_files(inner_element: tk.Canvas) -> list[str]:
+def get_files(inner_element: tk.Frame) -> list[str]:
     """
     Opens a dialog and let's you select files. Then fills the given element with the folder paths.
 
@@ -19,4 +19,5 @@ def get_files(inner_element: tk.Canvas) -> list[str]:
     for filepath in filepaths:
         file_element = tk.Label(inner_element, text=filepath, background="#009b67")
         file_element.grid(column=1,row=filepaths.index(filepath),sticky=tk.W)
-    return filepaths
+    GLOBAL_CHOSEN_FILES.append(filepaths)
+    print(GLOBAL_CHOSEN_FILES)
