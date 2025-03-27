@@ -73,7 +73,7 @@ choose_files_button = tk.Button(files_head_div,
                                 foreground=color_table["light_green"],
                                 activebackground=color_table["blue"],
                                 activeforeground=color_table["light_green"],
-                                command=lambda: GFunc.get_files(file_list_display))
+                                command= lambda: GFunc.get_files(scrollable_frame))
 choose_files_button.grid(column=1,row=0,sticky=tk.E)
 
 filename_list_text = tk.Label(files_head_div,text="Filenames",background=color_table["light_green"])
@@ -81,22 +81,30 @@ filename_list_text.grid(column=0,row=1,columnspan=2,sticky="nsew")
 # files head div
 
 # --- files body div  ---
-files_body_div = tk.Frame(files_div,width=181,height=367,background=color_table["green"])
-files_body_div.grid(column=0,row=1)
+files_body_div = tk.Frame(files_div, width=181, height=367, borderwidth=0, relief="flat",background=color_table["green"])
+files_body_div.grid(column=0, row=1)
 files_body_div.grid_propagate(False)
 files_body_div.grid_rowconfigure(0, weight=1)
 files_body_div.grid_columnconfigure(0, weight=1)
 
-file_list_display = tk.Canvas(files_body_div,background=color_table["green"],borderwidth=0,selectborderwidth=0)
-file_list_display.grid(column=0,row=0,sticky="nsew")
+# --- Canvas ---
+file_list_display = tk.Canvas(files_body_div, background=color_table['green'], borderwidth=0, relief="flat",highlightthickness=0)
+file_list_display.grid(column=0, row=0, sticky="nsew",padx=(0,0),pady=(0,0))
 
-scrollable_frame = tk.Frame(file_list_display)
-file_list_display.create_window((0,0),window=scrollable_frame,anchor="nw")
+# --- Horizontal Scrollbar ---
+file_list_scroller = tk.Scrollbar(files_body_div, orient=tk.HORIZONTAL, command=file_list_display.xview)
+file_list_scroller.grid(column=0, row=1, sticky="ew")  # Only stretch horizontally!
 
-file_list_scroller = tk.Scrollbar(files_body_div,orient=tk.HORIZONTAL,command=file_list_display.xview)
-file_list_scroller.grid(column=0,row=1,sticky="nsew")
 file_list_display.configure(xscrollcommand=file_list_scroller.set)
 
+# --- Scrollable Frame inside Canvas ---
+scrollable_frame = tk.Frame(file_list_display,borderwidth=0, relief="flat")
+canvas_window = file_list_display.create_window((0, 0), window=scrollable_frame, anchor="nw")
+
+def on_frame_configure(event):
+    file_list_display.configure(scrollregion=file_list_display.bbox("all"))
+
+scrollable_frame.bind("<Configure>", on_frame_configure)
 # --- files body div ---
 
 # files div
