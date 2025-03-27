@@ -1,19 +1,12 @@
-import os
-from utils.convert_sheet import OutputToFile as to_sheet_text
-import utils.Sheetur as Sheetur
 import tkinter as tk
 import utils.tkPrefabs as tPre
 
 
-# files = [f for f in os.listdir("./JSON_imports") if os.path.isfile(os.path.join("./JSON_imports", f))]
-# for file in files:
-#     to_sheet_text(file)
-
-# Sheetur.Compare_sheets('./JSON_imports')
 
 
-
-GLOBAL_CHOSEN_FILES = []
+GLOBAL_CHOSEN_FILES = ()
+GLOBAL_EXPORT_DESTINATION = []
+GLOBAL_SHEET_DESTINATION = []
 GLOBAL_COLOR_TABLE = {
     "blue":         "#182d4d",
     "green":        "#009b67",
