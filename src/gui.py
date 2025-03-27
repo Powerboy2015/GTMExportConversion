@@ -12,6 +12,10 @@ import utils.GuiFunctions as GFunc
 
 # Sheetur.Compare_sheets('./JSON_imports')
 
+
+
+GLOBAL_CHOSEN_FILES = []
+
 color_table = {
     "blue":         "#182d4d",
     "green":        "#009b67",
@@ -19,6 +23,9 @@ color_table = {
     "off_white" :   "#fff9f7",
     "red":          "#ff8484"
 }
+def insert_files(destination):
+    GLOBAL_CHOSEN_FILES = GFunc.get_files(destination)
+
 
 root = tk.Tk()
 root.title("SheeturGTM")
@@ -98,7 +105,7 @@ file_list_scroller.grid(column=0, row=1, sticky="ew")  # Only stretch horizontal
 file_list_display.configure(xscrollcommand=file_list_scroller.set)
 
 # --- Scrollable Frame inside Canvas ---
-scrollable_frame = tk.Frame(file_list_display,borderwidth=0, relief="flat")
+scrollable_frame = tk.Frame(file_list_display,borderwidth=0, relief="flat",background=color_table["green"])
 canvas_window = file_list_display.create_window((0, 0), window=scrollable_frame, anchor="nw")
 
 def on_frame_configure(event):
