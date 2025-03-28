@@ -1,8 +1,10 @@
 import csv
 import pandas as pd
+from openpyxl import Workbook
+from openpyxl.styles import Font
 from src.utils.jsonny import FileToJson as j_parse
 
-def convert_to_csv(filepaths: list[str],destination: str) -> None:
+def convert_to_csv(filepaths: list[str],destination: str ="") -> None:
     headers = ["Tag name",
                "Category",
                "Sends to",
@@ -12,8 +14,32 @@ def convert_to_csv(filepaths: list[str],destination: str) -> None:
 
     sheets_dict = files_to_data(filepaths)
 
+    wb = Workbook()
+    for sheet,tags in sheets_dict.items():
+        sheet_obj = wb.create_sheet(title=sheet)
+
+        sheet_obj.append(headers)
+
+        for tag in tags:
+            print(tag)
+            sheet_obj.append(tag)
 
 
+        sheet_obj.column_dimensions["a"].width = 45
+        sheet_obj.column_dimensions["b"].width = 20
+        sheet_obj.column_dimensions["c"].width = 20
+        sheet_obj.column_dimensions["d"].width = 25
+        sheet_obj.column_dimensions["e"].width = 15
+        sheet_obj.column_dimensions["f"].width = 10
+
+        sheet_obj.freeze_panes = sheet_obj['A2']
+
+
+        for cell in sheet_obj[1]:
+            cell.font = Font(bold=True)
+
+
+    wb.save("output.xlsx")
 
 def files_to_data(filepaths)->dict[str, dict]:
     data_sheets = {}
@@ -34,14 +60,14 @@ def files_to_data(filepaths)->dict[str, dict]:
 
 def process_tag(tag,triggers):
     event = confirm_event(tag['type'])
-    return {
-        "Tag name": tag['name'],
-        "Category": event,
-        "Sends to": sends_to(event),
-        "Triggers": get_trigger_name(tag['firingTriggerId'], triggers),
-        "Requires consent": is_consent_needed(tag['consentSettings']['consentStatus']),
-        "Comment": get_additional_info(tag)
-    }
+    return [
+        tag['name'] or "",
+        event or "",
+        sends_to(event) or "",
+        get_trigger_name(tag['firingTriggerId'], triggers) or "",
+        is_consent_needed(tag['consentSettings']['consentStatus']) or "",
+        get_additional_info(tag) or ""
+    ]
 
 # Outputs a file from imports to exports to use in a table.
 # def OutputToFile (fileName):
