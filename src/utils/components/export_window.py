@@ -1,14 +1,15 @@
 import tkinter as tk
 from src.utils.colors import color_table
-from src.gui import GLOBAL_EXPORT_DESTINATION
-from src.utils.GuiFunctions import get_file_destination as get_destination
+from src.utils.GuiFunctions import get_export_destination as get_destination
 from src.utils.GuiFunctions import export_to_csv as export
 
 
 def set_destination_variable(destination_label: tk.Label) -> None:
-    global GLOBAL_EXPORT_DESTINATION
     destination = get_destination(destination_label)
+    global GLOBAL_EXPORT_DESTINATION
     GLOBAL_EXPORT_DESTINATION = destination
+
+
 
 def export_window(content_div):
     outer_div = tk.Frame(content_div, width=486, height=180, bg=color_table["light_green"])

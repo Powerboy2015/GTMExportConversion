@@ -1,10 +1,12 @@
 import tkinter as tk
 from tkinter import filedialog
-from src.gui import GLOBAL_CHOSEN_FILES
-from src.gui import GLOBAL_EXPORT_DESTINATION
-from src.gui import GLOBAL_SHEET_DESTINATION
 from src.utils.convert_sheet import convert_to_csv
+from src.utils.sheet_comparison import  to_report
 
+# these three globals get altered when the functions present here get called.
+GLOBAL_CHOSEN_FILES = ()
+GLOBAL_EXPORT_DESTINATION = ""
+GLOBAL_SHEET_DESTINATION = ""
 
 def get_files(inner_element: tk.Frame) -> tuple[str]:
     """
@@ -25,8 +27,7 @@ def get_files(inner_element: tk.Frame) -> tuple[str]:
     GLOBAL_CHOSEN_FILES = filepaths
     print(GLOBAL_CHOSEN_FILES)
 
-
-def get_file_destination(destination_label: tk.Label) -> str:
+def get_export_destination(destination_label: tk.Label) -> str:
     """
     Opens a dialog to choose a folder
     :param destination_label: tk.Label - the label where the folder path should be displayed.
@@ -34,7 +35,27 @@ def get_file_destination(destination_label: tk.Label) -> str:
     """
     folder_destination = filedialog.askdirectory(title="Select destination folder")
     destination_label.config(text=folder_destination)
+    global GLOBAL_EXPORT_DESTINATION
+    GLOBAL_EXPORT_DESTINATION = folder_destination
+    return folder_destination
+
+def get_sheet_destination(destination_label: tk.Label) -> str:
+    """
+    Opens a dialog to choose a folder
+    :param destination_label: tk.Label - the label where the folder path should be displayed.
+    :return: str - the path to the selected folder.
+    """
+    folder_destination = filedialog.askdirectory(title="Select destination folder")
+    destination_label.config(text=folder_destination)
+    global GLOBAL_SHEET_DESTINATION
+    GLOBAL_SHEET_DESTINATION = folder_destination
     return folder_destination
 
 def export_to_csv():
+    print(f'file location: {GLOBAL_EXPORT_DESTINATION}')
     convert_to_csv(GLOBAL_CHOSEN_FILES,GLOBAL_EXPORT_DESTINATION)
+
+def compare_containers():
+    print(GLOBAL_CHOSEN_FILES)
+    print(f'file location: {GLOBAL_SHEET_DESTINATION}')
+    to_report(GLOBAL_CHOSEN_FILES,GLOBAL_SHEET_DESTINATION)

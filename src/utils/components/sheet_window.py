@@ -1,12 +1,12 @@
 import tkinter as tk
 from src.utils.colors import color_table
-from src.gui import GLOBAL_SHEET_DESTINATION
-from src.utils.GuiFunctions import get_file_destination as get_destination
+from src.utils.GuiFunctions import get_sheet_destination as get_destination
+from src.utils.GuiFunctions import compare_containers
 
 
 def set_destination_variable(destination_label: tk.Label) -> None:
-    global GLOBAL_SHEET_DESTINATION
     destination = get_destination(destination_label)
+    global GLOBAL_SHEET_DESTINATION
     GLOBAL_SHEET_DESTINATION = destination
 
 def sheet_window(content_div):
@@ -38,7 +38,7 @@ def sheet_window(content_div):
                                           command=lambda: set_destination_variable(choose_destination_label))
     choose_destination_button.grid(column=1,row=1,sticky=tk.NSEW)
 
-    export_button = tk.Button(inner_div,text="Compare containers", bg=color_table["blue"],fg=color_table['light_green'],activebackground=color_table["blue"],activeforeground=color_table["light_green"])
+    export_button = tk.Button(inner_div,text="Compare containers", bg=color_table["blue"],fg=color_table['light_green'],activebackground=color_table["blue"],activeforeground=color_table["light_green"],command=lambda: compare_containers())
     export_button.grid(column=0,row=2,sticky=tk.SW,pady=(89,0))
 
 

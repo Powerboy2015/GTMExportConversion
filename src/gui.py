@@ -1,12 +1,5 @@
 import tkinter as tk
 import utils.tkPrefabs as tPre
-
-
-
-
-GLOBAL_CHOSEN_FILES = ()
-GLOBAL_EXPORT_DESTINATION = []
-GLOBAL_SHEET_DESTINATION = []
 GLOBAL_COLOR_TABLE = {
     "blue":         "#182d4d",
     "green":        "#009b67",

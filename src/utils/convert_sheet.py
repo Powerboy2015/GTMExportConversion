@@ -3,6 +3,7 @@ import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Font
 from src.utils.jsonny import FileToJson as j_parse
+from datetime import datetime
 
 def convert_to_csv(filepaths: list[str],destination: str ="") -> None:
     headers = ["Tag name",
@@ -36,7 +37,9 @@ def convert_to_csv(filepaths: list[str],destination: str ="") -> None:
         for cell in sheet_obj[1]:
             cell.font = Font(bold=True)
 
-    wb.save("output.xlsx")
+    now = datetime.now()
+
+    wb.save(f"{destination}/output_{now.microsecond}{now.second}{now.minute}.xlsx")
 
 
 def files_to_data(filepaths)->dict[str, dict]:
@@ -101,6 +104,7 @@ def is_consent_needed(consent):
         return "No (not set)"
     elif consent == "NEEDED":
         return "Required"
+    return "not required"
 
 
 def sends_to(category):
