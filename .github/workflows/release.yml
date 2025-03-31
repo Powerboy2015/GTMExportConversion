@@ -33,6 +33,6 @@ jobs:
       - name: Upload EXE to GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/MyApp_${{ env.VERSION }}.exe
+          files: ./GTMSheeter_${{ env.VERSION }}.exe
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_GITHUB }}
