@@ -24,11 +24,11 @@ jobs:
           pip install pyinstaller openpyxl  # Add other dependencies if needed
 
       - name: Extract tag version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+        run: echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --onefile --windowed --name "GTMSheeter_${{ env.VERSION }}" --dispatch src/gui.py
+          pyinstaller --onefile --windowed --name "GTMSheeter_${{ env.VERSION }}" --distpath . src/gui.py
 
       - name: Upload EXE to GitHub Release
         uses: softprops/action-gh-release@v2
