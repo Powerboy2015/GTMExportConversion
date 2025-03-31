@@ -28,7 +28,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --onefile --windowed --name "GTMSheeter_${{ env.VERSION }}" src/gui.py
+          pyinstaller --onefile --windowed --name --dispatch "GTMSheeter_${{ env.VERSION }}" src/gui.py
 
       - name: Upload EXE to GitHub Release
         uses: softprops/action-gh-release@v2
@@ -36,3 +36,4 @@ jobs:
           files: ./GTMSheeter_${{ env.VERSION }}.exe
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_GITHUB }}
+
