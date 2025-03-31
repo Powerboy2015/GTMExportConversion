@@ -1,5 +1,3 @@
-import csv
-import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Font
 from src.utils.jsonny import FileToJson as j_parse

@@ -96,14 +96,10 @@ def to_report(file_paths: list[str], destination: str = "") -> None:
     main.append(headers)
 
     for tag_name, data in parsed_date.items():
-        formatted = [
-            tag_name,
-        ]
-        for value in data.values():
-            if value:
-                formatted.append("true")
-            else:
-                formatted.append("false")
+        formatted = [tag_name]
+
+        for is_found in data.values():
+            formatted.append("yes" if is_found else "no");
 
         main.append(formatted)
 

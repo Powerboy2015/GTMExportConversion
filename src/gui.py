@@ -12,7 +12,7 @@ from utils.colors import color_table
 def main():
 
     root = tk.Tk()
-    root.title("SheeturGTM")
+    root.title("RO: GTMSheeter")
     root.geometry("900x600")
     root.resizable(False,False)
     # root.config(background=color_table['off_white'])
@@ -25,7 +25,7 @@ def main():
     title_div.grid_propagate(False)
     title_div.columnconfigure(0, weight=1)  # we sorta encapsulate by using all columns
 
-    title = tPre.create_label(title_div,"SheeturGTM", 14)
+    title = tPre.create_label(title_div,"GTMSheeter", 14)
     title.grid(column=0,row=0,pady=10,sticky="ew")
     title.config(background=color_table["green"])
 
