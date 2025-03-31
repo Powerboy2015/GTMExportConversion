@@ -24,7 +24,9 @@ jobs:
           pip install pyinstaller openpyxl  # Add other dependencies if needed
 
       - name: Extract tag version
-        run: echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
+        run: |
+          $version = $env:GITHUB_REF -split '/' | select -Last 1
+          echo "VERSION=$version" >> $env:GITHUB_ENV
 
       - name: Build EXE with PyInstaller
         run: |
